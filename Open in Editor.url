@@ -1,2 +1,79 @@
-[InternetShortcut]
-URL=https://codepen.io/dyakubowski/pen/wvrzdvm
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Dmitriy CV</title>
+</head>
+<body>
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <img src="https://sun9-39.userapi.com/impg/tTRrCJgj_beSyAdzpW-pA8PwvM6v_fu1nY2xkQ/DBBPEf-7xAE.jpg?size=1215x1224&quality=96&sign=b539a8bcaf6e8b4775ca43aa90b81cab&type=album" width="200" alt="Моя аватарка"/>
+      </td>
+      <td>
+        <h1>Dmitriy Yakubowski</h1>
+  <p><em>Я - начинающий <strong>Python Developer</strong></em></p1>
+  <p>Я люблю <strong>программировать</strong>, заниматься <strong>спортом</strong>, а также <strong>быть в движении</strong></p>
+      </td>
+    </tr>
+  </table>
+    
+  <hr>
+  
+  <h2>Мои социальные сети</h2>
+  <ul type="circle">
+    <li><a>https://vk.com/dima_ria_4_95</a></li>
+    <li><a href="https://www.linkedin.com/in/dyakubowski1a7175205/">
+    LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/dmitriy_yakubowski">
+    Инстаграм</a></li>
+    <li>https://t.me/dmitriy_yakubowski</li>
+  </ul>
+
+  <hr>
+
+  <h2>Мои контакты</h2>
+  <form>
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" placeholder="Введите имя">
+    <label for="email">Ваша почта:</label>
+    <input type="email" id="email" placeholder="Введите адрес">
+    <br>
+    <label for="number">Номер телефона:</label>
+    <input type="text" id="number" placeholder="Введите номер телефона">
+  </form>
+  <h2>Мои хобби</h2>
+  <textarea id="text" row="5" col="100"></textarea>
+  <hr>
+  <h2>Мои курсы</h2>
+  <a href="https://codepen.io/dyakubowski/pen/RwLorer">Посмотреть курсы</a>
+  <h2>О себе</h2>
+  <p>Я начинающий Python Developer, самостоятельно изучающий язык программирования. Я изучаю Data Science, поскольку владею навыком работы с данными: сбором, анализом и оценкой.
+В настоящее время владение данными навыками позволяет оценить экономическую эффективность, прогнозировать возможные тенденции и разрабатывать стратегию развития.</p>
+  <h2>Опыт работы</h2>
+  <table border="2">
+    <thead>
+      <tr>
+        <th>Компания</th>
+        <th>Должность</th>
+        <th>Годы</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Профиль</td>
+        <td>Инженер</td>
+        <td>2017-2019</td>
+      </tr>
+      <tr>
+        <td>Управа</td>
+        <td>Инспектор</td>
+        <td>2019-наст.время</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+</body>
+</html>
